@@ -1,0 +1,10 @@
+project(":armeria-tomcat") {
+    dependencies {
+        implementation "com.linecorp.armeria:armeria-spring-boot-starter"
+        implementation "com.linecorp.armeria:armeria-tomcat"
+        implementation "org.springframework.boot:spring-boot-starter-web"
+        implementation "org.springframework.boot:spring-boot-devtools"
+        compileOnly("org.projectlombok:lombok")
+        annotationProcessor("org.projectlombok:lombok")
+    }
+}

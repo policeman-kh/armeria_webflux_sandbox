@@ -1,0 +1,5 @@
+rootProject.name = "armeria_webflux"
+include "armeria-tomcat"
+include "armeria-webflux"
+include "webflux"
+include "tomcat"

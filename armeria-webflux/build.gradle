@@ -1,0 +1,8 @@
+project(":armeria-webflux") {
+    dependencies {
+        implementation 'com.linecorp.armeria:armeria-spring-boot-webflux-starter'
+        implementation 'org.springframework.boot:spring-boot-devtools'
+        compileOnly("org.projectlombok:lombok")
+        annotationProcessor("org.projectlombok:lombok")
+    }
+}
